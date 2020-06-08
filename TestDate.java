@@ -24,7 +24,7 @@ public static void main(String[] args) {
         Calendar c = new GregorianCalendar(year, month -1, day);
         Date d = c.getTime();
 
-        int dayOfMonth = c.get(Calendar.DAY_OF_MONTH);
+       // int dayOfMonth = c.get(Calendar.DAY_OF_MONTH);
         int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
 
         System.out.println("The date is : " + sdf.format(d);
