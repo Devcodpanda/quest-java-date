@@ -27,7 +27,7 @@ public static void main(String[] args) {
        // int dayOfMonth = c.get(Calendar.DAY_OF_MONTH);
         int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
 
-        System.out.println("The date is : " + sdf.format(d);
+        System.out.println("The date is : " + sdf.format(d));
         System.out.println("The day of week is : " + c.get(Calendar.DAY_OF_WEEK));
         }
         }
